@@ -8,7 +8,7 @@ function myFunction(e) {
     var ctx = canvas.getContext("2d");
     
     ctx.beginPath();
-    ctx.arc(x, y, 40, 0, 2 * Math.PI,true);
+    ctx.arc(x, y, 30, 0, 2 * Math.PI,true);
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.stroke();
 
